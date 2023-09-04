@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body, html {
-    background-color: #c9ba9d;
+    
 }
 /* HEADER SECTION */
 header {
@@ -50,8 +50,57 @@ header nav ul li a:hover {
     background-position: 0% 40%;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-/* MAIN CONTENT SECTION */
-.main-content {
-    /*border: 1px solid red;*/
+.heading {
+    margin: 40px;
+}
+.heading h1 {
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    text-shadow: 4px 4px 1px black;
+    font-size: 60px;
+}
+.form {
+    width: 30%;
+    height: 70%;
+    background-color: #c9ba9d;
+    border-radius: 10px;
+    display: flex;
+    padding: 60px;
+}
+form input, textarea {
+    width: 115%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+textarea {
+    resize: none;
+}
+.signup-container {
+    position: relative;
+    left: 40%;
+}
+.signup {
+    color: white;
+    background-color: #ff4436;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.signup:hover {
+    background-color: #fd6156;
+}
+.signup::after {
+    background-color: #b43026;
 }
