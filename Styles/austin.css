@@ -84,6 +84,37 @@ header nav ul li a:hover {
     text-shadow: 4px 4px 1px black;
 }
 /* MAIN CONTENT SECTION */
-.paragraph {
+.article {
     flex: 2;
+    padding: 20px;
+}
+.img-container {
+    display: flex;
+    height: 60%;
+    margin-left: 20px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -100px;
+}
+.article img {
+    width: 40%;
+    border-radius: 8px;
+    float: left;
+    margin: 20px;
+    transition: 0.5s;
+}
+.article img:hover {
+    box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.5);
+    transform: translate(0, -10px);
+}
+.article p {
+    clear: both;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 40px;
+    color: white;
+    background-color: #c5b18b;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
 }
