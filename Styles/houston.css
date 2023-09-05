@@ -107,14 +107,24 @@ header nav ul li a:hover {
     box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.5);
     transform: translate(0, -10px);
 }
-.article p {
+.article p, .list-container {
     clear: both;
     font-size: 22px;
     font-weight: bold;
-    margin: 40px;
+    margin: 25px;
     color: white;
     background-color: #c5b18b;
     padding: 20px;
     border-radius: 40px;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+}
+.list-container {
+    padding-left: 80px;
+}
+.list-container a {
+    color: #ff4436;
+    text-decoration: none;
+}
+.list-container a:hover {
+    color: #ff6d63;
 }
