@@ -85,7 +85,6 @@ header nav ul li a:hover {
     font-size: 85px;
     font-family: 'Lobster', sans-serif;
     margin-bottom: -20px;
-    transform: rotate(1deg);
     text-shadow: 4px 4px 1px black;
 }
 /* MAIN CONTENT SECTION */
@@ -125,4 +124,15 @@ header nav ul li a:hover {
 }
 .list-container {
     padding-left: 80px;
+}
+table, th, td {
+    border: 3px solid #ff4436;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+    background-color: #ff4436;
+}
+td {
+    background-color: #ff433675;
 }
