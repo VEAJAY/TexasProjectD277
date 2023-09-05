@@ -42,19 +42,20 @@
             </aside>
             
             <aside class="form">
-                <form action="">
+                <form action="" onsubmit="return compareEmails()">
                     <input type="text" placeholder="First Name"><br>
                     <input type="text" placeholder="Last Name"><br>
-                    <input type="email" placeholder="Email"><br>
-                    <input type="email" placeholder="Confirm Email"><br>
+                    <input type="email" placeholder="Email" id="emailForm" required><br>
+                    <input type="email" placeholder="Confirm Email" id="emailConfirm" required><br>
                     <textarea name="" id="" cols="30" rows="4" placeholder="Ask Us Anything!"></textarea>
                     <div class="signup-container">
-                        <button class="signup">Sign Up</button>
+                        <button type="submit" class="signup">Sign Up</button>
                     </div>
                 </form>
             </aside>
         </div>
         
     </section>
+    <script src="../Scripts/emailvalidator.js"></script>
 </body>
 </html>
