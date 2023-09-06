@@ -87,7 +87,7 @@ textarea {
     position: relative;
     left: 40%;
 }
-.signup {
+#signup {
     color: white;
     background-color: #ff4436;
     border: none;
@@ -98,9 +98,9 @@ textarea {
     cursor: pointer;
     margin-top: 20px;
 }
-.signup:hover {
+#signup:hover {
     background-color: #fd6156;
 }
-.signup::after {
+#signup::after {
     background-color: #b43026;
 }
