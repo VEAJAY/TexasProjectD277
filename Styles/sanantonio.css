@@ -139,7 +139,13 @@ td {
 }
 
 
-@media screen and (max-width: 1450px) {
+
+@media screen and (max-width: 1750px) {
+    .heading {
+        display: none;
+    }
+}
+@media screen and (max-width: 1680px) {
     .hero {
         display: inline-block;
         width: 100%;
@@ -166,8 +172,12 @@ td {
         margin-bottom: -10px;
     }
     .title {
-        top: 75%;
+        top: 90%;
         left: 90px;
+    }
+    .sub-title {
+        top: 87%;
+        left: 140px;
     }
 }
 @media screen and (max-width: 730px) {
@@ -198,12 +208,17 @@ td {
     .title h1, .title h3 {
         font-size: 100px;
     }
-    .title h3, .sub-title h4 {
-        font-size: 60px;
+    .title h3 {
+        font-size: 80px;
         margin-bottom: -10px;
     }
     .title {
         top: 160%;
         left: 30px;
+    }
+    .sub-title {
+        font-size: 20px;
+        top: 157%;
+        left: 100px;
     }
 }

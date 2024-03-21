@@ -65,12 +65,12 @@ header nav ul li a:hover {
     font-size: 60px;
 }
 .form {
-    width: 30%;
-    height: 70%;
+    width: 500px;
+    height: 700px;
     background-color: #c9ba9d;
     border-radius: 10px;
     display: flex;
-    padding: 60px;
+    padding: 30px;
 }
 form input, textarea {
     width: 115%;
@@ -103,4 +103,29 @@ textarea {
 }
 #signup::after {
     background-color: #b43026;
+}
+
+
+@media screen and (max-width: 730px) {
+    header nav ul {
+        position: absolute;
+        left: 0;
+        top: 0px;
+    }
+    header nav ul li {
+        display: block;
+    }
+    header {
+        height: 250px;
+        position: absolute;
+    }
+    .material-symbols-outlined {
+        display: none;
+    }
+    .title h1, .title h3 {
+        display: none;
+    }
+    .heading {
+        margin-top: 300px;
+    }
 }
